@@ -21,6 +21,7 @@ function App() {
     document.querySelector('html').classList.add(themeMode)
 
   }, [themeMode])
+  
   return (
     <ThemeProvider value={{themeMode, lightTheme, darkTheme}}>
     <div className="flex flex-wrap min-h-screen items-center">
